@@ -91,7 +91,7 @@ export default function TermsPage() {
     <>
       <section className="relative pt-32 pb-8 md:pt-40 md:pb-12 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/services-bg.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/images/services-bg.jpg" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-800/70 via-brand-800/50 to-brand-800/30" />
         </div>
         <div className="container-wide relative z-10">

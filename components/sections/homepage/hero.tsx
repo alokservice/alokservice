@@ -23,15 +23,7 @@ const floatingCards = [
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
-      <div className="absolute inset-0">
-        <img
-          src="/hero.jpg"
-          alt=""
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-800/60 via-brand-800/40 to-brand-800/20" />
-      </div>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-brand-800">
       <GradientBg />
 
       <div className="container-wide relative z-10 pt-24 pb-16 md:pt-32 md:pb-24">
@@ -120,7 +112,7 @@ export function HeroSection() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-strong">
                 <img
-                  src="/hero.jpg"
+                  src="/images/hero.jpg"
                   alt="Professional care services"
                   className="w-full h-[600px] object-cover"
                 />

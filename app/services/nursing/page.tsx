@@ -54,7 +54,7 @@ export default function NursingPage() {
             </div>
             <div className="order-1 lg:order-2 relative rounded-3xl overflow-hidden shadow-medium">
               <img
-                src="/nursing-service.jpg"
+                src="/images/services/nursing.jpg"
                 alt="Professional nursing care"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"

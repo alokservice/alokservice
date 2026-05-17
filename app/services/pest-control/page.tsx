@@ -48,7 +48,7 @@ export default function PestControlPage() {
             </div>
             <div className="relative rounded-3xl overflow-hidden shadow-medium">
               <img
-                src="/pest-control.jpg"
+                src="/images/services/pest-control.jpg"
                 alt="Pest control treatment"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"

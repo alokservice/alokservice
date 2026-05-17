@@ -26,7 +26,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center gap-2 group">
               <div className="w-9 h-9 rounded-xl overflow-hidden flex items-center justify-center">
-                <img src="/logo.jpg" alt="Alok Service" className="w-full h-full object-cover" />
+                <img src="/images/logo.jpg" alt="Alok Service" className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-xl text-brand-800 hidden sm:inline">
                 {siteConfig.name}

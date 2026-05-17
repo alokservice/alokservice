@@ -33,13 +33,13 @@ export function ComparisonSection() {
               <table className="w-full">
                 <thead>
                   <tr className="border-b-2 border-gray-200">
-                    <th className="text-left p-5 md:p-6 font-bold text-brand-800 min-w-[200px]">
+                    <th className="text-left p-5 md:p-6 font-bold text-brand-800 min-w-[140px] md:min-w-[200px]">
                       Feature
                     </th>
-                    <th className="text-center p-5 md:p-6 font-bold text-gray-400 min-w-[140px]">
+                    <th className="text-center p-5 md:p-6 font-bold text-gray-400 min-w-[100px] md:min-w-[140px]">
                       Traditional Providers
                     </th>
-                    <th className="text-center p-5 md:p-6 font-bold text-brand-800 min-w-[140px] bg-brand-50">
+                    <th className="text-center p-5 md:p-6 font-bold text-brand-800 min-w-[100px] md:min-w-[140px] bg-brand-50">
                       <Badge variant="accent" className="mb-1">
                         Alok Service
                       </Badge>

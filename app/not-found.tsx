@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <div className="relative min-h-screen flex items-center justify-center px-4">
       <div className="absolute inset-0">
-        <img src="/hero.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="/images/hero.jpg" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-brand-800/80" />
       </div>
       <div className="relative z-10 text-center max-w-lg">

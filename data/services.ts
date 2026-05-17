@@ -27,7 +27,7 @@ export const services: Service[] = [
       "Alok Service delivers premium cleaning solutions tailored to your space. Our trained professionals use eco-friendly products and advanced techniques to ensure every corner gleams. From routine maintenance to deep cleaning, we handle it all with precision and care.",
     icon: "Sparkles",
     image:
-      "/cleaning.jpg",
+      "/images/services/cleaning.jpg",
     features: [
       "Eco-friendly cleaning products",
       "Trained & verified cleaners",
@@ -124,7 +124,7 @@ export const services: Service[] = [
       "Alok Service provides comprehensive pest control services using safe, modern techniques. We eliminate pests at the source and prevent future infestations. Our licensed technicians handle everything from common household pests to specialized commercial treatments.",
     icon: "Bug",
     image:
-      "/pest-control.jpg",
+      "/images/services/pest-control.jpg",
     features: [
       "Licensed & trained technicians",
       "Safe, child-friendly treatments",
@@ -221,7 +221,7 @@ export const services: Service[] = [
       "Alok Service's home care program provides compassionate, professional care for elderly individuals and those recovering from illness or surgery. Our trained caregivers assist with daily activities, medication management, and companionship — all in the comfort of your home.",
     icon: "Home",
     image:
-      "/home-care.jpg",
+      "/images/services/home-care.jpg",
     features: [
       "Trained & certified caregivers",
       "Personalized care plans",
@@ -318,7 +318,7 @@ export const services: Service[] = [
       "Alok Service offers professional nursing care in the comfort of your home. Our registered nurses and licensed practical nurses provide skilled medical care, wound management, medication administration, and health monitoring. We bridge the gap between hospital and home with clinical excellence.",
     icon: "Stethoscope",
     image:
-      "/nursing-service.jpg",
+      "/images/services/nursing.jpg",
     features: [
       "Registered & licensed nurses",
       "Post-surgery wound care",
@@ -415,7 +415,7 @@ export const services: Service[] = [
       "Alok Service understands the challenges of caregiving. Our caregiver support program provides respite care, training, counseling, and professional assistance to family caregivers. We help you maintain balance while ensuring your loved one receives excellent care.",
     icon: "HeartHandshake",
     image:
-      "/caregiver-support.jpg",
+      "/images/services/caregiver-support.jpg",
     features: [
       "Respite care services",
       "Caregiver training programs",
@@ -512,7 +512,7 @@ export const services: Service[] = [
       "Alok Service provides comprehensive patient care for individuals recovering from surgery, managing chronic conditions, or needing daily assistance. Our compassionate team ensures comfort, dignity, and professional support throughout your recovery journey.",
     icon: "HeartPulse",
     image:
-      "/patient-care.jpg",
+      "/images/services/patient-care.jpg",
     features: [
       "24/7 patient monitoring",
       "Personal hygiene assistance",
@@ -609,7 +609,7 @@ export const services: Service[] = [
       "Alok Service offers comprehensive facility management solutions for commercial complexes, residential societies, and institutional properties. From maintenance and security to cleaning and vendor management, we ensure your facility operates seamlessly.",
     icon: "Building2",
     image:
-      "/facility-management.jpg",
+      "/images/services/facility-management.jpg",
     features: [
       "Integrated facility management",
       "Maintenance & repairs",

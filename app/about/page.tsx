@@ -29,7 +29,7 @@ export default function AboutPage() {
     <>
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/about.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/images/about.jpg" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-800/70 via-brand-800/50 to-brand-800/30" />
         </div>
         <div className="container-wide relative z-10">
@@ -53,14 +53,14 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-medium">
                   <img
-                    src="/about.jpg"
+                    src="/images/about.jpg"
                     alt={`${siteConfig.name} team`}
                     className="w-full h-[500px] object-cover"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-800/30 to-transparent" />
                 </div>
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-5 shadow-medium">
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-5 shadow-medium hidden md:block">
                   <div className="flex items-center gap-3">
                     <Award className="w-8 h-8 text-brand-800" />
                     <div>

@@ -15,7 +15,7 @@ export function AboutPreview() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-medium">
                 <img
-                  src="/about.jpg"
+                  src="/images/about.jpg"
                   alt={`${siteConfig.name} team`}
                   className="w-full h-[500px] object-cover"
                   loading="lazy"

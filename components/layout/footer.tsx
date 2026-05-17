@@ -19,7 +19,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-9 h-9 rounded-xl overflow-hidden flex items-center justify-center">
-                <img src="/logo.jpg" alt="Alok Service" className="w-full h-full object-cover" />
+                <img src="/images/logo.jpg" alt="Alok Service" className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-xl">{siteConfig.name}</span>
             </Link>

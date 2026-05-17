@@ -34,7 +34,7 @@ export default function FacilityManagementPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative rounded-3xl overflow-hidden shadow-medium">
               <img
-                src="/facility-management.jpg"
+                src="/images/services/facility-management.jpg"
                 alt="Facility management"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"

@@ -34,7 +34,7 @@ export default function CaregiverSupportPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative rounded-3xl overflow-hidden shadow-medium">
               <img
-                src="/caregiver-support.jpg"
+                src="/images/services/caregiver-support.jpg"
                 alt="Caregiver support"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"

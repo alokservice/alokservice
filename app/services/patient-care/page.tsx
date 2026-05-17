@@ -57,7 +57,7 @@ export default function PatientCarePage() {
             </div>
             <div className="relative rounded-3xl overflow-hidden shadow-medium">
               <img
-                src="/patient-care.jpg"
+                src="/images/services/patient-care.jpg"
                 alt="Patient care"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"
