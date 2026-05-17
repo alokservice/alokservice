@@ -6,7 +6,3 @@ compatibility_flags = ["nodejs_compat"]
 [env.production]
 name = "alok-service"
 pages_build_output_dir = "out"
-
-[[routes]]
-pattern = "/*"
-zone = ""
