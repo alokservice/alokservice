@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { FadeIn } from "@/components/animations/fade-in";
 import { siteConfig } from "@/data/site-config";
+import { ResponsiveImage } from "@/components/shared/responsive-image";
 
 export function AboutPreview() {
   return (
@@ -13,12 +14,13 @@ export function AboutPreview() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <FadeIn direction="left">
             <div className="relative">
-              <div className="relative rounded-3xl overflow-hidden shadow-medium">
-                <img
-                  src="/images/about.jpg"
-                  alt={`${siteConfig.name} team`}
-                  className="w-full h-[500px] object-cover"
-                  loading="lazy"
+              <div className="relative rounded-3xl overflow-hidden shadow-medium h-[500px]">
+                <ResponsiveImage
+                  mobileSrc="/images/about-team.jpg"
+                  desktopSrc="/images/about-team.jpg"
+                  alt={`${siteConfig.name} professional team`}
+                  fill
+                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-800/30 to-transparent" />
               </div>

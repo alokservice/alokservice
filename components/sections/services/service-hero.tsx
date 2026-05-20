@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
+import { ResponsiveImage } from "@/components/shared/responsive-image";
 import { siteConfig } from "@/data/site-config";
 import type { Service } from "@/data/services";
 
@@ -11,10 +12,13 @@ export function ServiceHero({ service }: ServiceHeroProps) {
   return (
     <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden bg-brand-800">
       <div className="absolute inset-0">
-        <img
-          src={service.image}
+        <ResponsiveImage
+          mobileSrc={service.image}
+          desktopSrc={service.image}
           alt={service.title}
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-800/90 via-brand-800/70 to-brand-800/50" />
       </div>

@@ -12,15 +12,16 @@ import { AnimatedCounter } from "@/components/shared/animated-counter";
 import { FadeIn } from "@/components/animations/fade-in";
 import { StaggerContainer, StaggerItem } from "@/components/animations/stagger-container";
 import { statistics } from "@/data/statistics";
+import { ResponsiveImage } from "@/components/shared/responsive-image";
 
 export const metadata = aboutMetadata;
 
 const timeline = [
-  { year: "2015", event: `${siteConfig.name} founded with a vision to transform home services.` },
-  { year: "2017", event: "Expanded to healthcare services including nursing and patient care." },
-  { year: "2019", event: "Reached 5,000 homes served milestone. Launched caregiver support program." },
-  { year: "2021", event: "Team grew to 150+ professionals. Introduced facility management services." },
-  { year: "2023", event: "Served 12,000+ clients. Launched eco-friendly initiatives across all services." },
+  { year: "2020", event: `${siteConfig.name} founded with a vision to transform home services.` },
+  { year: "2021", event: "Expanded to healthcare services including nursing and patient care." },
+  { year: "2022", event: "Reached 5,000 homes served milestone. Launched baby care service." },
+  { year: "2023", event: "Team grew to 150+ professionals. Introduced facility management services." },
+  { year: "2024", event: "Served 12,000+ clients. Launched eco-friendly initiatives across all services." },
   { year: "2025", event: "250+ professionals, 15,000+ homes served, 98% satisfaction rate." },
 ];
 
@@ -29,7 +30,14 @@ export default function AboutPage() {
     <>
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/about.jpg" alt="" className="w-full h-full object-cover" />
+          <ResponsiveImage
+            mobileSrc="/images/about-team.jpg"
+            desktopSrc="/images/about-team.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-800/70 via-brand-800/50 to-brand-800/30" />
         </div>
         <div className="container-wide relative z-10">
@@ -51,12 +59,13 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
               <div className="relative">
-                <div className="relative rounded-3xl overflow-hidden shadow-medium">
-                  <img
-                    src="/images/about.jpg"
+                <div className="relative rounded-3xl overflow-hidden shadow-medium h-[500px]">
+                  <ResponsiveImage
+                    mobileSrc="/images/about-team.jpg"
+                    desktopSrc="/images/about-team.jpg"
                     alt={`${siteConfig.name} team`}
-                    className="w-full h-[500px] object-cover"
-                    loading="lazy"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-800/30 to-transparent" />
                 </div>

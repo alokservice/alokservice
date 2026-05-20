@@ -3,6 +3,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { serviceSchema } from "@/lib/schema";
 import { ServiceHero } from "@/components/sections/services/service-hero";
 import { ServiceOverview } from "@/components/sections/services/service-overview";
+import { ServiceGallery } from "@/components/sections/services/service-gallery";
 import { ServiceBenefits } from "@/components/sections/services/service-benefits";
 import { ServiceProcess } from "@/components/sections/services/service-process";
 import { ServiceFeatures } from "@/components/sections/services/service-features";
@@ -32,6 +33,7 @@ export default function PatientCarePage() {
       />
       <ServiceHero service={service} />
       <ServiceOverview service={service} />
+<ServiceGallery service={service} />
       <section className="section-padding bg-white">
         <div className="container-wide">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -53,10 +53,10 @@ export const testimonials: Testimonial[] = [
     id: "t5",
     name: "Meera Joshi",
     location: "Mirpur, Dhaka",
-    service: "Caregiver Support",
+    service: "Baby Care Service",
     rating: 5,
     content:
-      "Being a caregiver for my husband was exhausting until Alok Service stepped in. Their respite care gave me time to recharge while knowing he was in safe hands. A lifeline for family caregivers.",
+      "Finding reliable care for my baby was stressful until Alok Service stepped in. Their caregiver is loving, attentive, and incredibly capable. My baby loves her, and I can work with peace of mind. Exceptional service!",
     avatar: "/images/team/team-4.jpg",
   },
   {

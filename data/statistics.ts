@@ -9,5 +9,5 @@ export const statistics: Statistic[] = [
   { value: 15000, suffix: "+", label: "Homes Served" },
   { value: 250, suffix: "+", label: "Expert Professionals" },
   { value: 98, suffix: "%", label: "Client Satisfaction" },
-  { value: 9, suffix: "+", label: "Years Experience" },
+  { value: 5, suffix: "+", label: "Years Experience" },
 ];

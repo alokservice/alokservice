@@ -3,6 +3,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { serviceSchema } from "@/lib/schema";
 import { ServiceHero } from "@/components/sections/services/service-hero";
 import { ServiceOverview } from "@/components/sections/services/service-overview";
+import { ServiceGallery } from "@/components/sections/services/service-gallery";
 import { ServiceBenefits } from "@/components/sections/services/service-benefits";
 import { ServiceProcess } from "@/components/sections/services/service-process";
 import { ServiceFeatures } from "@/components/sections/services/service-features";
@@ -30,6 +31,7 @@ export default function HomeCarePage() {
       />
       <ServiceHero service={service} />
       <ServiceOverview service={service} />
+<ServiceGallery service={service} />
       <section className="section-padding bg-gradient-warm">
         <div className="container-wide">
           <div className="text-center max-w-3xl mx-auto mb-12">

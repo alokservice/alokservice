@@ -1,8 +1,72 @@
 name = "alok-service"
-pages_build_output_dir = "out"
-compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-05-20"
 
 [env.production]
 name = "alok-service"
-pages_build_output_dir = "out"
+
+[env.preview]
+name = "alok-service-preview"
+
+# Build configuration for Cloudflare Pages
+[build]
+command = "bun run build"
+cwd = "."
+watch_dirs = ["app", "components", "lib", "public"]
+
+# Output directory for static export
+output_dir = "out"
+
+# Redirects for SPA-like behavior
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Headers for security and performance
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+for = "*.js"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.css"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.jpg"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.png"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.webp"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.svg"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.woff2"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "*.woff"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"

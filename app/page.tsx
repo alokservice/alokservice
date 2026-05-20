@@ -1,5 +1,5 @@
 import { homeMetadata } from "@/lib/metadata";
-import { HeroSection } from "@/components/sections/homepage/hero";
+import { HeroSlider } from "@/components/sections/homepage/hero-slider";
 import { ServicesOverview } from "@/components/sections/homepage/services-overview";
 import { WhyChooseUs } from "@/components/sections/homepage/why-choose-us";
 import { AboutPreview } from "@/components/sections/homepage/about-preview";
@@ -16,7 +16,7 @@ export const metadata = homeMetadata;
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
+      <HeroSlider />
       <ServicesOverview />
       <WhyChooseUs />
       <AboutPreview />

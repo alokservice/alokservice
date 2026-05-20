@@ -6,6 +6,7 @@ export interface Service {
   description: string;
   icon: string;
   image: string;
+  gallery: string[];
   features: string[];
   benefits: string[];
   process: { step: number; title: string; description: string }[];
@@ -27,7 +28,12 @@ export const services: Service[] = [
       "Alok Service delivers premium cleaning solutions tailored to your space. Our trained professionals use eco-friendly products and advanced techniques to ensure every corner gleams. From routine maintenance to deep cleaning, we handle it all with precision and care.",
     icon: "Sparkles",
     image:
-      "/images/services/cleaning.jpg",
+      "/images/hero-slide-1.png",
+    gallery: [
+      "/images/services/cleaning/cleaning-1.png",
+      "/images/services/cleaning/cleaning-2.png",
+      "/images/services/cleaning/cleaning-3.png",
+    ],
     features: [
       "Eco-friendly cleaning products",
       "Trained & verified cleaners",
@@ -124,7 +130,11 @@ export const services: Service[] = [
       "Alok Service provides comprehensive pest control services using safe, modern techniques. We eliminate pests at the source and prevent future infestations. Our licensed technicians handle everything from common household pests to specialized commercial treatments.",
     icon: "Bug",
     image:
-      "/images/services/pest-control.jpg",
+      "/images/services/pest-control/pest-control-1.png",
+    gallery: [
+      "/images/services/pest-control/pest-control-1.png",
+      "/images/services/pest-control/pest-control-2.png",
+    ],
     features: [
       "Licensed & trained technicians",
       "Safe, child-friendly treatments",
@@ -221,7 +231,11 @@ export const services: Service[] = [
       "Alok Service's home care program provides compassionate, professional care for elderly individuals and those recovering from illness or surgery. Our trained caregivers assist with daily activities, medication management, and companionship — all in the comfort of your home.",
     icon: "Home",
     image:
-      "/images/services/home-care.jpg",
+      "/images/hero-slide-4.png",
+    gallery: [
+      "/images/services/home-care/home-care-1.png",
+      "/images/services/home-care/home-care-2.png",
+    ],
     features: [
       "Trained & certified caregivers",
       "Personalized care plans",
@@ -318,7 +332,11 @@ export const services: Service[] = [
       "Alok Service offers professional nursing care in the comfort of your home. Our registered nurses and licensed practical nurses provide skilled medical care, wound management, medication administration, and health monitoring. We bridge the gap between hospital and home with clinical excellence.",
     icon: "Stethoscope",
     image:
-      "/images/services/nursing.jpg",
+      "/images/hero-slide-5.png",
+    gallery: [
+      "/images/services/nursing/nursing-1.png",
+      "/images/services/nursing/nursing-2.png",
+    ],
     features: [
       "Registered & licensed nurses",
       "Post-surgery wound care",
@@ -406,101 +424,105 @@ export const services: Service[] = [
       "Professional home nursing by Alok Service. RNs & LPNs for wound care, medication, post-surgery recovery. Book skilled nursing today.",
   },
   {
-    id: "caregiver-support",
-    title: "Caregiver Support",
-    slug: "caregiver-support",
+    id: "baby-care",
+    title: "Baby Care Service",
+    slug: "baby-care",
     shortDescription:
-      "Empowering caregivers with professional support and respite care.",
+      "Professional baby care services for your little ones. Safe, nurturing, and reliable.",
     description:
-      "Alok Service understands the challenges of caregiving. Our caregiver support program provides respite care, training, counseling, and professional assistance to family caregivers. We help you maintain balance while ensuring your loved one receives excellent care.",
-    icon: "HeartHandshake",
+      "Alok Service provides professional baby care services with love and attention. Our trained caregivers ensure your baby's safety, comfort, and development. From feeding and diapering to playtime and naps, we handle every aspect of baby care with expertise and genuine affection.",
+    icon: "Baby",
     image:
-      "/images/services/caregiver-support.jpg",
+      "/images/hero-slide-3.png",
+    gallery: [
+      "/images/services/baby-care/baby-care-1.png",
+      "/images/services/baby-care/baby-care-2.png",
+    ],
     features: [
-      "Respite care services",
-      "Caregiver training programs",
-      "24/7 helpline support",
-      "Counseling & stress management",
-      "Temporary coverage",
-      "Support groups",
+      "Trained & certified caregivers",
+      "Safe & baby-friendly environment",
+      "24/7 availability",
+      "Feeding & diaper management",
+      "Play & developmental activities",
+      "Regular parent updates",
     ],
     benefits: [
-      "Prevent caregiver burnout",
-      "Take time for yourself",
-      "Learn professional techniques",
-      "Reduce family stress",
-      "Improve care quality",
-      "Build confidence",
+      "Peace of mind for parents",
+      "Professional baby care expertise",
+      "Healthy baby development",
+      "Flexible scheduling options",
+      "Trusted and verified caregivers",
+      "Affordable care solutions",
     ],
     process: [
       {
         step: 1,
-        title: "Caregiver Assessment",
+        title: "Free Consultation",
         description:
-          "We speak with you to understand your challenges, needs, and the level of support required.",
+          "We assess your baby's needs, routines, and preferences in a detailed consultation.",
       },
       {
         step: 2,
-        title: "Support Plan",
+        title: "Care Plan Design",
         description:
-          "We design a customized support plan including respite hours, training, and resources.",
+          "We create a customized baby care plan tailored to your baby's schedule and needs.",
       },
       {
         step: 3,
-        title: "Respite Care",
+        title: "Caregiver Match",
         description:
-          "Our trained professional takes over while you rest, run errands, or recharge.",
+          "We match you with a compatible, trained caregiver based on experience and personality.",
       },
       {
         step: 4,
-        title: "Training & Guidance",
+        title: "Ongoing Care",
         description:
-          "We provide hands-on training in care techniques, medication management, and emergency response.",
+          "Our caregiver provides dedicated support with regular check-ins and care adjustments.",
       },
       {
         step: 5,
-        title: "Ongoing Support",
+        title: "Parent Updates",
         description:
-          "We remain available for advice, backup care, and emotional support whenever needed.",
+          "We keep you informed with regular updates on your baby's activities and well-being.",
       },
     ],
     faqs: [
       {
-        question: "What is respite care?",
+        question: "How do you match caregivers with babies?",
         answer:
-          "Respite care provides temporary relief for primary caregivers. Our professional team steps in to care for your loved one, giving you time to rest, work, or attend to personal matters.",
+          "We consider your baby's age, temperament, routine, and your family's preferences to ensure a compatible match. You can request a change anytime.",
       },
       {
-        question: "How much training do you provide?",
+        question: "Can care be provided 24 hours a day?",
         answer:
-          "We offer comprehensive training covering medication management, mobility assistance, emergency response, and self-care techniques for caregivers.",
+          "Yes, we offer live-in and 24/7 care options. Plans are fully customizable based on your needs.",
       },
       {
-        question: "Can you provide overnight support?",
+        question: "Are your caregivers trained in infant care?",
         answer:
-          "Yes, we offer overnight respite care so you can get uninterrupted sleep while we monitor and care for your loved one.",
+          "All our caregivers are certified, background-checked, and receive ongoing training in infant care, safety protocols, and emergency response.",
       },
     ],
     industries: [
-      "Family Homes",
-      "Elderly Care Settings",
-      "Special Needs Care",
-      "Palliative Care",
-      "Dementia Care",
-      "Post-Stroke Recovery",
+      "Private Residences",
+      "Daycare Centers",
+      "Hospitals",
+      "Corporate Crèches",
+      "Events & Functions",
+      "Post-Delivery Care",
     ],
     includedServices: [
-      "Respite care (hourly & overnight)",
-      "Caregiver skills training",
-      "Stress management resources",
-      "Support group referrals",
-      "24/7 helpline",
-      "Emergency backup care",
+      "Feeding & burping",
+      "Diaper changing",
+      "Sleep monitoring",
+      "Play & stimulation activities",
+      "Bath & grooming",
+      "Health monitoring",
     ],
     metaTitle:
-      "Caregiver Support Services | Alok Service – Helping Those Who Care",
+      "Professional Baby Care Service | Alok Service – Nurturing Care for Your Baby",
     metaDescription:
-      "Professional caregiver support by Alok Service. Respite care, training, and counseling for family caregivers. Recharge with confidence.",
+      "Trusted baby care by Alok Service. Trained caregivers for safe, nurturing infant care. Personalized plans, 24/7 support. Book now.",
   },
   {
     id: "patient-care",
@@ -512,7 +534,11 @@ export const services: Service[] = [
       "Alok Service provides comprehensive patient care for individuals recovering from surgery, managing chronic conditions, or needing daily assistance. Our compassionate team ensures comfort, dignity, and professional support throughout your recovery journey.",
     icon: "HeartPulse",
     image:
-      "/images/services/patient-care.jpg",
+      "/images/hero-slide-6.png",
+    gallery: [
+      "/images/services/patient-care/patient-care-1.png",
+      "/images/services/patient-care/patient-care-2.png",
+    ],
     features: [
       "24/7 patient monitoring",
       "Personal hygiene assistance",
@@ -609,7 +635,11 @@ export const services: Service[] = [
       "Alok Service offers comprehensive facility management solutions for commercial complexes, residential societies, and institutional properties. From maintenance and security to cleaning and vendor management, we ensure your facility operates seamlessly.",
     icon: "Building2",
     image:
-      "/images/services/facility-management.jpg",
+      "/images/hero-slide-7.png",
+    gallery: [
+      "/images/services/facility-management/facility-1.png",
+      "/images/services/facility-management/facility-2.png",
+    ],
     features: [
       "Integrated facility management",
       "Maintenance & repairs",
@@ -705,6 +735,6 @@ export const serviceCategories = [
   },
   {
     name: "Healthcare Services",
-    services: ["home-care", "nursing", "caregiver-support", "patient-care"],
+    services: ["home-care", "nursing", "baby-care", "patient-care"],
   },
 ];

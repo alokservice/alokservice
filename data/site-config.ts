@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Alok Service",
   tagline: "Premium Home & Healthcare Services",
   description:
-    "Alok Service provides premium cleaning, pest control, home care, nursing, caregiver support, patient care, and facility management services in Dhaka, Bangladesh. Trusted, professional, and reliable.",
+    "Alok Service provides premium cleaning, pest control, home care, nursing, baby care, patient care, and facility management services in Dhaka, Bangladesh. Trusted, professional, and reliable.",
   url: "https://alokservicebd.com",
   email: "alokservicebd@gmail.com",
   phone: "+8801601701865",
@@ -21,12 +21,12 @@ export const siteConfig = {
     youtube: "https://youtube.com/@alokservice",
     linkedin: "https://linkedin.com/company/alokservice",
   },
-  foundedYear: 2015,
+  foundedYear: 2020,
   serviceArea: "Dhaka, Bangladesh",
   satisfaction: 98,
   expertsCount: 250,
   homesServed: 15000,
-  yearsExperience: 9,
+  yearsExperience: 5,
 };
 
 export const siteNavigation = {
@@ -41,7 +41,7 @@ export const siteNavigation = {
     { label: "Pest Control", href: "/services/pest-control" },
     { label: "Home Care Service", href: "/services/home-care" },
     { label: "Nursing Service", href: "/services/nursing" },
-    { label: "Caregiver Support", href: "/services/caregiver-support" },
+    { label: "Baby Care Service", href: "/services/baby-care" },
     { label: "Patient Care", href: "/services/patient-care" },
     { label: "Facility Management", href: "/services/facility-management" },
   ],

@@ -3,6 +3,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { serviceSchema } from "@/lib/schema";
 import { ServiceHero } from "@/components/sections/services/service-hero";
 import { ServiceOverview } from "@/components/sections/services/service-overview";
+import { ServiceGallery } from "@/components/sections/services/service-gallery";
 import { ServiceBenefits } from "@/components/sections/services/service-benefits";
 import { ServiceProcess } from "@/components/sections/services/service-process";
 import { ServiceFeatures } from "@/components/sections/services/service-features";

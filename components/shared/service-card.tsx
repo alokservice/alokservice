@@ -4,7 +4,7 @@ import {
   Bug,
   Home,
   Stethoscope,
-  HeartHandshake,
+  Baby,
   HeartPulse,
   Building2,
   ArrowRight,
@@ -20,7 +20,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Bug,
   Home,
   Stethoscope,
-  HeartHandshake,
+  Baby,
   HeartPulse,
   Building2,
 };
