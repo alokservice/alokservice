@@ -3,8 +3,8 @@ export const siteConfig = {
   tagline: "Premium Home & Healthcare Services",
   description:
     "Alok Service provides premium cleaning, pest control, home care, nursing, baby care, patient care, and facility management services in Dhaka, Bangladesh. Trusted, professional, and reliable.",
-  url: "https://alokservicebd.com",
-  email: "alokservicebd@gmail.com",
+  url: "https://alokservice.com",
+  email: "alokservice@gmail.com",
   phone: "+8801601701865",
   whatsapp: "+8801601701865",
   address: {
