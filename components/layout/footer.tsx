@@ -133,6 +133,14 @@ export function Footer() {
             >
               Terms & Conditions
             </Link>
+            <a
+              href="https://webthriver.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-400 hover:text-white transition-colors"
+            >
+              Contact the <span className="text-white/70 hover:text-white">website developer</span>
+            </a>
           </div>
         </div>
       </div>
