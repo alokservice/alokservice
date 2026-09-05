@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Phone, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GradientBg } from "@/components/shared/gradient-bg";
 import { siteConfig } from "@/data/site-config";
@@ -88,14 +88,6 @@ export function HeroSlider() {
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
-  };
-
-  const goToPrevious = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
-
-  const goToNext = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
 
   return (
@@ -190,26 +182,6 @@ export function HeroSlider() {
               </Button>
             </Link>
           </motion.div>
-        </div>
-
-        {/* Navigation Arrows */}
-        <div className="absolute bottom-8 right-8 flex items-center gap-4">
-          <Button
-            variant="secondary"
-            size="sm"
-            onClick={goToPrevious}
-            className="bg-white/10 text-white border-white/30 hover:bg-white/20"
-          >
-            <ChevronLeft className="w-5 h-5" />
-          </Button>
-          <Button
-            variant="secondary"
-            size="sm"
-            onClick={goToNext}
-            className="bg-white/10 text-white border-white/30 hover:bg-white/20"
-          >
-            <ChevronRight className="w-5 h-5" />
-          </Button>
         </div>
 
         {/* Slide Indicators */}

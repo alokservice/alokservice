@@ -85,14 +85,14 @@ export const homeMetadata = createPageMetadata({
 
 export const servicesMetadata = createPageMetadata({
   title: "Our Services - Professional Home & Healthcare Solutions",
-  description: `Discover comprehensive services by Alok Service: professional cleaning, pest control, home care, nursing, baby care, patient care, and facility management. ${siteConfig.homesServed}+ homes served in Dhaka.`,
+  description: `Discover comprehensive services by Alok Service: professional cleaning, pest control, home care, nursing, baby care, patient care, and facility management. ${siteConfig.homesServed}+ clients served in Dhaka.`,
   path: "/services",
   keywords: "home services bangladesh, cleaning services dhaka, pest control services, home care services, nursing services, baby care services, patient care services, facility management dhaka, professional services bangladesh",
 });
 
 export const aboutMetadata = createPageMetadata({
-  title: "About Alok Service - Our Story, Mission & Team",
-  description: `Learn about Alok Service's ${siteConfig.yearsExperience}+ year journey delivering premium home and healthcare services in Dhaka. Meet our ${siteConfig.expertsCount}+ expert team and discover our commitment to excellence.`,
+  title: "About Alok Service - Our Story & Mission",
+  description: `Learn about Alok Service's ${siteConfig.yearsExperience}+ year journey delivering premium home and healthcare services in Dhaka. ${siteConfig.expertsCount}+ expert professionals serving ${siteConfig.homesServed}+ clients.`,
   path: "/about",
   keywords: "about alok service, home care company dhaka, healthcare services bangladesh, service provider dhaka, professional care team, home services company",
 });

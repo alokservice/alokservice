@@ -16,8 +16,8 @@ const trustBadges = [
 ];
 
 const floatingCards = [
-  { value: "15K+", label: "Happy Clients", x: "15%", y: "20%", color: "bg-white/90" },
-  { value: "250+", label: "Experts", x: "75%", y: "15%", color: "bg-white/90" },
+  { value: "300+", label: "Happy Clients", x: "15%", y: "20%", color: "bg-white/90" },
+  { value: "70+", label: "Experts", x: "75%", y: "15%", color: "bg-white/90" },
   { value: "4.9★", label: "Rating", x: "80%", y: "60%", color: "bg-white/90" },
 ];
 

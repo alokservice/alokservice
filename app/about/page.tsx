@@ -2,10 +2,8 @@ import Link from "next/link";
 import { ArrowRight, Target, Eye, Award, Users, Shield } from "lucide-react";
 import { aboutMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/data/site-config";
-import { teamMembers } from "@/data/team";
 import { SectionHeader } from "@/components/shared/section-header";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { AnimatedCounter } from "@/components/shared/animated-counter";
@@ -19,10 +17,10 @@ export const metadata = aboutMetadata;
 const timeline = [
   { year: "2020", event: `${siteConfig.name} founded with a vision to transform home services.` },
   { year: "2021", event: "Expanded to healthcare services including nursing and patient care." },
-  { year: "2022", event: "Reached 5,000 homes served milestone. Launched baby care service." },
-  { year: "2023", event: "Team grew to 150+ professionals. Introduced facility management services." },
-  { year: "2024", event: "Served 12,000+ clients. Launched eco-friendly initiatives across all services." },
-  { year: "2025", event: "250+ professionals, 15,000+ homes served, 98% satisfaction rate." },
+  { year: "2022", event: "Reached 100 homes served milestone. Launched baby care service." },
+  { year: "2023", event: "Team grew to 50+ professionals. Introduced facility management services." },
+  { year: "2024", event: "Served 200+ clients. Launched eco-friendly initiatives across all services." },
+  { year: "2025", event: "70+ professionals, 300+ clients served, 98% satisfaction rate." },
 ];
 
 export default function AboutPage() {
@@ -94,9 +92,9 @@ export default function AboutPage() {
                 families who needed them most.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Founded by {teamMembers[0].name}, our founder, we set out to
-                change that. Today, we&apos;re a team of {siteConfig.expertsCount}+
-                professionals serving thousands of families and businesses across
+                Founded with a vision to change the industry, we set out to
+                transform home and healthcare services. Today, we&apos;re a team of {siteConfig.expertsCount}+
+                professionals serving hundreds of families and businesses across
                 Dhaka — and we&apos;re just getting started.
               </p>
 
@@ -208,43 +206,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-white">
-        <div className="container-wide">
-          <SectionHeader
-            subtitle="Our Team"
-            title="Meet the People Behind Alok Service"
-            description="Passionate professionals committed to your wellbeing."
-          />
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {teamMembers.map((member) => (
-              <StaggerItem key={member.name}>
-                <Card className="text-center h-full">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-24 h-24 rounded-full object-cover mx-auto mb-4"
-                    loading="lazy"
-                  />
-                  <h3 className="text-lg font-bold text-brand-800">
-                    {member.name}
-                  </h3>
-                  <p className="text-sm text-brand-600 font-medium mb-3">
-                    {member.role}
-                  </p>
-                  <p className="text-sm text-gray-500">{member.bio}</p>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
       <section className="section-padding bg-gradient-warm">
         <div className="container-wide text-center">
           <SectionHeader
             subtitle="Get in Touch"
             title="Ready to Experience the Alok Service Difference?"
-            description="Join thousands of satisfied customers who trust us with their homes and health."
+            description="Join hundreds of satisfied customers who trust us with their homes and health."
           />
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

@@ -24,8 +24,8 @@ export const siteConfig = {
   foundedYear: 2020,
   serviceArea: "Dhaka, Bangladesh",
   satisfaction: 98,
-  expertsCount: 250,
-  homesServed: 15000,
+  expertsCount: 70,
+  homesServed: 300,
   yearsExperience: 5,
 };
 
