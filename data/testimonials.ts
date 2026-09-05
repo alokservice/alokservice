@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t2",
-    name: "Rajesh Kumar",
+    name: "Abdullah Khan",
     location: "Mirpur, Dhaka",
     service: "Pest Control",
     rating: 5,
@@ -31,7 +31,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t3",
-    name: "Anita Verma",
+    name: "Wahid Hasan",
     location: "Uttara, Dhaka",
     service: "Home Care",
     rating: 5,
@@ -41,7 +41,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t4",
-    name: "Dr. Suresh Patel",
+    name: "Dr. Nazia Sharmin",
     location: "Dhaka",
     service: "Nursing Service",
     rating: 5,
@@ -51,7 +51,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t5",
-    name: "Meera Joshi",
+    name: "Meera Ahsan",
     location: "Mirpur, Dhaka",
     service: "Baby Care Service",
     rating: 5,
@@ -61,7 +61,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t6",
-    name: "Vikram Singh",
+    name: "Noor-E-Alam",
     location: "Gulshan, Dhaka",
     service: "Facility Management",
     rating: 5,
