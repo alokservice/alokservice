@@ -11,7 +11,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Priya Sharma",
+    name: "Nusrat Nabila",
     location: "Dhaka",
     service: "Cleaning Service",
     rating: 5,
@@ -27,7 +27,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     content:
       "We had a severe termite issue that no one could fix. Alok Service's team identified the source immediately and resolved it permanently. Their follow-up service is exceptional. Truly professionals.",
-    avatar: "/images/team/team-1.jpg",
+    avatar: "/images/testimonials/avatar-2.jpg",
   },
   {
     id: "t3",
@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     content:
       "Finding care for my mother was stressful until we found Alok Service. Their caregiver is compassionate, punctual, and incredibly capable. Mom looks forward to her visits. Thank you for your wonderful service.",
-    avatar: "/images/team/team-2.jpg",
+    avatar: "/images/testimonials/avatar-3.jpg",
   },
   {
     id: "t4",
@@ -47,7 +47,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     content:
       "As a physician, I recommend Alok Service to my patients for home nursing care. Their nurses are skilled, professional, and follow medical protocols diligently. A trusted partner in patient recovery.",
-    avatar: "/images/team/team-3.jpg",
+    avatar: "/images/testimonials/avatar-4.jpg",
   },
   {
     id: "t5",
@@ -57,7 +57,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     content:
       "Finding reliable care for my baby was stressful until Alok Service stepped in. Their caregiver is loving, attentive, and incredibly capable. My baby loves her, and I can work with peace of mind. Exceptional service!",
-    avatar: "/images/team/team-4.jpg",
+    avatar: "/images/testimonials/avatar-5.jpg",
   },
   {
     id: "t6",
@@ -67,6 +67,6 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     content:
       "Alok Service manages our entire office complex. Their team handles everything seamlessly — cleaning, security, maintenance. Our employees love the well-maintained environment. Outstanding service partner.",
-    avatar: "/images/testimonials/avatar-2.jpg",
+    avatar: "/images/testimonials/avatar-6.jpg",
   },
 ];
